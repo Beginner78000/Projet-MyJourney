@@ -1,0 +1,26 @@
+question: code_question, question
+propose, 0N question, 11 response
+response: code_response, response
+
+destination : code_destination, city_name, country, city_code, country_code, continent, latitude, longitude, landscape, season, budget, history, destination_visual
+register, 0N destination, 0N journey
+journey: ref_journey, destination_result
+save, 0N user, 11 journey
+
+review: code_avis, href, type, title, username, description, rating
+
+write, 0N user, 11 review
+
+rubric: code_rubric, topic, creation_date
+post, 0N rubric, 11 message
+message: code_message, username, title, content, publication_date, likes
+publish, 0N user, 11 message
+user: code_user, username, firstname, lastname, email, password, role, avatar
+has, 0N user, 11 favoris
+favoris: favoris_reference, type, href
+
+add, 1N user, 11 likes
+
+likes: ref_likes, username
+
+give, 0N likes, 11 message

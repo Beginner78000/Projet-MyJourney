@@ -1,0 +1,20 @@
+#config
+# .env
+# sqitch.conf
+
+# Linux
+**/.directory
+**/*~
+
+# npm
+node_modules
+package-lock.json
+*.gz
+
+#log
+**/*.log
+**/*.log.*
+
+#vscode
+.vs_code/
+

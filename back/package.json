@@ -1,0 +1,47 @@
+{
+  "name": "projet-my-journey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "resetDB": "sqitch revert -y; sqitch deploy; DEBUG=import:* node ./data/import-data.js",
+    "start": "node .",
+    "dev": "DEBUG=*,-express:*,-nodemon*,-body* npx nodemon",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Zagreus/projet-my-journey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Zagreus/projet-my-journey/issues"
+  },
+  "homepage": "https://github.com/O-clock-Zagreus/projet-my-journey#readme",
+  "dependencies": {
+    "amadeus": "^5.7.1",
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "bunyan": "^1.8.15",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dataloader": "^2.0.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "email-validator": "^2.0.4",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "express": "^4.17.3",
+    "express-jsdoc-swagger": "^1.6.7",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "prettier": "^2.6.1",
+    "pug": "^3.0.2",
+    "redis": "^4.0.6"
+  }
+}

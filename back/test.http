@@ -1,0 +1,28 @@
+################################################################################
+# Fichier de test des routes HTTP de l'API
+# Nécessite l'extension REST Client pour VSCode
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+################################################################################
+@endpoint = http://localhost:{{$dotenv PORT}}/api
+
+### 404
+GET {{ endpoint }}/quizzz
+
+#########################
+#         USER          #
+#########################
+
+POST {{ endpoint }}/users/login
+Content-Type: application/json
+
+{
+    "email": "mariehdek@yahoo.fr",
+    ""
+}
+
+#########################
+#      CONTINENTS       #
+#########################
+
+GET {{ endpoint }}/continents
+Content-Type: application/json

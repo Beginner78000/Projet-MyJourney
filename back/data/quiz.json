@@ -1,0 +1,50 @@
+[   
+    {
+        "id": 1,
+        "question": "Où souhaitez-vous partir ?",
+        "response": [
+            "Montagne",
+            "Mer",
+            "Ville",
+            "Campagne"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "A quelle période de l'année ?",
+        "response": [
+            "sept-oct-nov",
+            "déc-janv-fev",
+            "mars-avril-mai",
+            "juin-juil-août"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Quelle température aimeriez-vous ?",
+        "response": [
+            "froid",
+            "tempéré",
+            "chaud"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "A quelle distance de chez vous ?",
+        "response": [
+            "France",
+            "Europe",
+            "Autres",
+            "Peu importe"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Quel est votre budget ?",
+        "response": [
+            "petit",
+            "moyen",
+            "grand"
+        ]
+    }
+]
