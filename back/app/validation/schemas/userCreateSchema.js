@@ -2,7 +2,7 @@ const Joi = require('joi');
 const { joiPassword } = require('joi-password');
 
 module.exports = Joi.object({
-    username: Joi.string(3),
+    username: Joi.string(),
     // firstname: Joi.string(),
     // lastname: Joi.string(),
     email: Joi.string().min(6).email(),
@@ -18,9 +18,9 @@ module.exports = Joi.object({
                         .required()
                         .valid(Joi.ref('password'))
                         .required()
-                        .options({ language: { any: { allowOnly: 'must match password' } }}),
+                        // .options({ language: { any: { allowOnly: 'must match password' } }}),
     // role: Joi.string()
                     
-}).validate(input);
+}).required();
 
 

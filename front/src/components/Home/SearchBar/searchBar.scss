@@ -1,0 +1,28 @@
+.search-bar input {
+  display: flex;
+  height: 5vh;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 2px white;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  background-color: blanc;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .search-bar input {
+    display: flex;
+    height: 4vh;
+    border-radius: 15px;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 10px 2px white;
+    background-color: blanc;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+  }
+}

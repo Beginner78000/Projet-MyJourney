@@ -1,0 +1,163 @@
+.header {
+  position: fixed;
+  color: white;
+  z-index: 1;
+  background-color: #00000026;
+  width: 100%;
+
+  &--title {
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+  }
+  &--connexion {
+    position: fixed;
+    display: flex;
+    top: 2%;
+    right: 1%;
+  }
+  &--search {
+    position: fixed;
+    display: flex;
+    top: 0%;
+    left: 0%;
+  }
+  // .header {
+  //   position: fixed;
+  //   color: blanc;
+  //   z-index: 1;
+  //   &--title {
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //     height: 6rem;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
+  //   &--connexion {
+  //     position: fixed;
+  //     display: flex;
+  //     top: 0%;
+  //     right: 1%;
+  //   }
+  //   &--search {
+  //     position: absolute;
+  //     display: flex;
+  //     top: 50%;
+  //     left: 50%;
+  //   }
+  //   &--button {
+  //     font-family: "Taviraj", sans-serif;
+  //   }
+  // &--button--destination {
+  //   font-family: "Dancing Script", cursive;
+  //   position: fixed;
+  //   display: flex;
+  //   top: 35%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   font-size: 2.5rem;
+  //   color: #f5cb5c;
+  //   background-color: transparent;
+  //   border: none;
+  // }
+  // &--button--inspiration {
+  //   font-family: "Dancing Script", cursive;
+  //   position: fixed;
+  //   display: flex;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   font-size: 2.5rem;
+  //   color: #DBC18B;
+  //   background-color: transparent;
+  //   border: none;
+  // }
+  // &--button--forum {
+  //   font-family: "Dancing Script", cursive;
+  //   position: fixed;
+  //   display: flex;
+  //   text-align: center;
+  //   justify-content: center;
+  //   bottom: 30%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   font-size: 2.5rem;
+  //   background-color: transparent;
+  //   border: none;
+  //   color: #47ead0;
+  // }
+}
+// #warped {
+//   font-family: "Rubik", sans-serif;
+//   position: fixed;
+//   display: flex;
+//   top: 50%;
+//   left: 15%;
+//   font-size: 2.5rem;
+// }
+// }
+
+@media only screen and (max-width: 450px) {
+  .header {
+    position: fixed;
+    color: blanc;
+    z-index: 1;
+    &--title {
+      display: flex;
+      justify-content: flex-start;
+    }
+    &--connexion {
+      position: fixed;
+      display: flex;
+      top: 0%;
+      right: 1%;
+    }
+    &--search {
+      position: absolute;
+      display: flex;
+      top: 50%;
+      left: 50%;
+    }
+    &--button {
+      font-family: "Rubik", sans-serif;
+    }
+    &--button--destination {
+      font-family: "Dancing Script", cursive;
+      position: fixed;
+      display: flex;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      color: white;
+      background-color: transparent;
+      border: none;
+    }
+    &--button--inspiration {
+      font-family: "Dancing Script", cursive;
+      position: fixed;
+      display: flex;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      color: white;
+      background-color: transparent;
+      border: none;
+    }
+    &--button--forum {
+      font-family: "Dancing Script", cursive;
+      position: fixed;
+      display: flex;
+      bottom: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2.5rem;
+      background-color: transparent;
+      border: none;
+      color: white;
+    }
+  }
+}

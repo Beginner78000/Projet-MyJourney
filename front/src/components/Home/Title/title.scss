@@ -1,0 +1,25 @@
+.title--journey {
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  color: #dbc18b;
+  letter-spacing: 0.1rem;
+  margin-top: 0rem;
+}
+
+.title--journey--subtitle {
+  margin-top: 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: white;
+}
+
+@media screen and (max-width: 450px) {
+  .title--journey--subtitle {
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    color: white;
+  }
+}

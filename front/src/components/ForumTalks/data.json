@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Destinations",
+    "subject": "Informations",
+    "content": [
+      {
+        "title": "Madrid",
+        "message": "Quelle lanque parle t'on à Madrid ?",
+        "date": "le 12 avr. 2022",
+        "author": "El Touristo"
+      },
+      {
+        "title": "C'est quoi la monnaie ? ",
+        "message": "J'ai des Pesos ! Je peux les dépenser a Madrid",
+        "date": "le 4 avr. 2022",
+        "author": "PaFutFut"
+      },
+      {
+        "title": "On mange quoi là-bas ?",
+        "message": "Quelle est la spécialité culinaire de la région ?",
+        "date": "le 10 mar. 2022",
+        "author": "La Tourista"
+      },
+      {
+        "title": "Madrid",
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis architecto magni praesentium, cupiditate reiciendis, similique quas eaque maxime earum temporibus alias ipsa nam beatae, inventore quam! Nulla recusandae veniam nam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, assumenda unde eum, laborum non atque cum quis ex nesciunt necessitatibus itaque vel, ipsum tenetur! Exercitationem nam eius cupiditate quasi enim.",
+        "date": "le 2 mar. 2022",
+        "author": "El Touristo"
+      }
+    ]
+  }
+]

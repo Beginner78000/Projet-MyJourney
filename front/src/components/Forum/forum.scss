@@ -1,0 +1,65 @@
+.forum {
+  background-color: #ffffff42;
+  margin-top: 8rem;
+  width: 60%;
+  height: 75vh;
+  border-radius: 15px;
+  padding: 2rem;
+  font-family: Taviraj;
+
+  & h1 {
+    font-family: Taviraj;
+
+    font-weight: bold;
+  }
+  h2 {
+    font-family: Taviraj;
+    font-size: 2rem;
+  }
+
+  & .category {
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+
+    & .head-category-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      a {
+        padding: 0.5rem;
+
+        width: 100%;
+      }
+      a:hover {
+        background-color: #fe277db3;
+      }
+    }
+
+    & h3 {
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      text-align: left;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.248);
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .head-category {
+      width: 100%;
+    }
+  }
+}
+
+/* hide scrollbar but allow scrolling */
+.forum::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.forum {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}

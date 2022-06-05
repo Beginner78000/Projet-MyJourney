@@ -11,4 +11,4 @@ module.exports = Joi.object({
                         .minOfNumeric(1)
                         .noWhiteSpaces()
                         .required(),
-}).validate(input);
+}).required();

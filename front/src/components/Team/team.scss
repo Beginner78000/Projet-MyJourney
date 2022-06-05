@@ -1,0 +1,169 @@
+.team {
+  color: #dbc08b;
+  h1 {
+    margin-top: 7rem;
+    color: white;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .dev-spe {
+    font-size: 1.5rem;
+  }
+
+  .role {
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .name {
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .team-main {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    // flex-direction: column;
+    .dev-back {
+      display: flex;
+      margin: 1rem;
+      flex-direction: column;
+      background-color: #dbc18b30;
+      border-radius: 10px;
+      padding: 0.5rem;
+    }
+    .dev-front {
+      display: flex;
+      margin: 1rem;
+      flex-direction: column;
+      background-color: #dbc18b30;
+      border-radius: 10px;
+      padding: 0.5rem;
+    }
+    .devs {
+      display: flex;
+      .dev {
+        margin: 1rem;
+      }
+    }
+
+    .dev-spe {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .team .team-main {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .team h1 {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .team .team-main {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .team h1 {
+    margin-top: 8rem;
+  }
+
+  .team .team-main .devs {
+    display: flex;
+    // margin: 1rem;
+    flex-direction: column;
+    // background-color: #dbc18b30;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .team {
+    color: #dbc08b;
+    padding: 1rem;
+  }
+  h1 {
+    margin-top: 2rem;
+    color: white;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .dev-spe {
+    font-size: 1.5rem;
+  }
+
+  .role {
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .name {
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .team .team-main {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .dev-back {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    background-color: #dbc18b30;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  .dev-front {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    background-color: #dbc18b30;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  .devs {
+    display: flex;
+    flex-direction: column;
+    .dev {
+      margin: 1rem;
+    }
+  }
+}
+
+/* hide scrollbar but allow scrolling */
+.team-main::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.team-main {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}

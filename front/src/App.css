@@ -1,0 +1,116 @@
+.tabs-contents {
+  display: flex;
+  margin-top: 1rem;
+  width: 65%;
+}
+
+.card-container {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Lora';
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 30%;
+  margin: 0.5rem;
+}
+
+div.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 20rem; */
+}
+
+.tabs .tabs-pane {
+  margin: 1%;
+  padding-bottom: 0.5%;
+  cursor: pointer;
+  list-style: none;
+}
+
+.tabs .tabs-pane span {
+  color: white;
+  font-size: 1.5rem;
+  z-index: 1;
+  left: 0;
+}
+
+.tabs .tabs-pane.active {
+  border-bottom: 1px solid red;
+}
+
+.tab-content {
+  display: flex;
+  text-align: start;
+  margin-top: 4rem;
+}
+
+.card-title span {
+  font-weight: bold;
+  color: #78c2ad;
+}
+/* 
+form fieldset {
+  border: 1px solid;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+form fieldset legend {
+  padding: 0 1%;
+  width: auto;
+} */
+
+.tabs ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+  .tabs-contents {
+    display: flex;
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .tab-content {
+    display: flex;
+    text-align: start;
+    margin-top: 12rem;
+    /* font-weight: bold; */
+  }
+
+  .card-container {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: Taviraj;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 65%;
+    margin: 0.5rem;
+  }
+}

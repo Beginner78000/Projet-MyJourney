@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Destinations",
+    "link": "destinations",
+    "topics": [
+      {
+        "slug": "info",
+        "description": "Informations"
+      },
+      {
+        "slug": "advise",
+        "description": "Besoin d'avis sur une destination"
+      },
+      {
+        "slug": "question",
+        "description": "Poser une question aux voyageurs..."
+      }
+    ]
+  },
+  {
+    "category": "Lieux a visiter",
+    "link": "poi",
+    "topics": [
+      {
+        "slug": "info",
+        "description": "Informations"
+      },
+      {
+        "slug": "advise",
+        "description": "Besoin d'avis sur un lieux a visiter"
+      },
+      {
+        "slug": "question",
+        "description": "Poser une question aux voyageurs..."
+      }
+    ]
+  },
+  {
+    "category": "Hôtels",
+    "link": "hotels",
+    "topics": [
+      {
+        "slug": "info",
+        "description": "Informations"
+      },
+      {
+        "slug": "advise",
+        "description": "Besoin d'avis sur un hotel"
+      },
+      {
+        "slug": "question",
+        "description": "Poser une question aux voyageurs..."
+      }
+    ]
+  },
+  {
+    "category": "Activités",
+    "link": "activities",
+    "topics": [
+      {
+        "slug": "info",
+        "description": "Informations"
+      },
+      {
+        "slug": "advise",
+        "description": "Besoin d'avis sur une activité"
+      },
+      {
+        "slug": "question",
+        "description": "Poser une question aux voyageurs..."
+      }
+    ]
+  }
+]

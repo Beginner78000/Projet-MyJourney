@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
+
+.button--annecy {
+  position: relative;
+  display: inline-flex;
+  width: 130px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.button--annecy .a-test {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+.button--annecy .a-test:before,
+.button--annecy .a-test:after {
+  position: absolute;
+  content: "ANNECY";
+  height: 55px;
+  width: 130px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button--annecy .a-test:before {
+  color: #fff;
+  content: "HOTELS";
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button--annecy .a-test:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button--annecy .a-test:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+.button--Alaska {
+  position: relative;
+  display: inline-flex;
+  width: 130px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.button--Alaska .a-test {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+.button--Alaska .a-test:before,
+.button--Alaska .a-test:after {
+  position: absolute;
+  content: "Alaska";
+  height: 55px;
+  width: 130px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button--Alaska .a-test:before {
+  color: #fff;
+  content: "resto";
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button--Alaska .a-test:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button--Alaska .a-test:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+.button--Bergen {
+  position: relative;
+  display: inline-flex;
+  width: 130px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.button--Bergen .a-test {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+.button--Bergen .a-test:before,
+.button--Bergen .a-test:after {
+  position: absolute;
+  content: "Bergen";
+  height: 55px;
+  width: 130px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button--Bergen .a-test:before {
+  color: #fff;
+  content: "activités";
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button--Bergen .a-test:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button--Bergen .a-test:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}

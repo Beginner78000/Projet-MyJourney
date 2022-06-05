@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
+
+.button--japon {
+  position: relative;
+  display: inline-flex;
+  width: 130px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.button--japon .a-test {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+.button--japon .a-test:before,
+.button--japon .a-test:after {
+  position: absolute;
+  content: "Nagoya";
+  height: 55px;
+  width: 130px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button--japon .a-test:before {
+  color: #fff;
+  content: "JAPON";
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button--japon .a-test:after {
+  color: #000;
+  background-color: #fff;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button--japon .a-test:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+.button--france {
+  position: relative;
+  display: inline-flex;
+  width: 130px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.button--france .a-test {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+.button--france .a-test:before,
+.button--france .a-test:after {
+  position: absolute;
+  content: "paris";
+  height: 55px;
+  width: 130px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button--france .a-test:before {
+  color: #fff;
+  content: "france";
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button--france .a-test:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button--france .a-test:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+.button--italie {
+  position: relative;
+  display: inline-flex;
+  width: 130px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.button--italie .a-test {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+.button--italie .a-test:before,
+.button--italie .a-test:after {
+  position: absolute;
+  content: "rome";
+  height: 55px;
+  width: 130px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button--italie .a-test:before {
+  color: #fff;
+  content: "italie";
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.button--italie .a-test:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.button--italie .a-test:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}

@@ -1,0 +1,121 @@
+.header {
+  position: fixed;
+  color: white;
+  z-index: 1;
+  &--title {
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+  }
+  &--connexion {
+    position: fixed;
+    display: flex;
+    top: 0%;
+    right: 1%;
+  }
+  &--search {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+  }
+  &--button {
+    font-family: "Rubik", sans-serif;
+  }
+  &--button--destination {
+    font-family: "Dancing Script", cursive;
+    position: fixed;
+    display: flex;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #f5cb5c;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0.2rem;
+  }
+  &--button--inspiration {
+    font-family: "Dancing Script", cursive;
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #fe277e;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+
+    border-radius: 5px;
+    padding: 0.2rem;
+    cursor: pointer;
+  }
+  &--button--forum {
+    font-family: "Dancing Script", cursive;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    bottom: 25%;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+    color: #47ead0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header--title {
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    align-items: center;
+    margin-left: 1rem;
+    justify-content: flex-start;
+  }
+
+  .header--button--inspiration {
+    font-size: 2.5rem;
+  }
+
+  .header--button--destination {
+    font-size: 2.5rem;
+    top: 39%;
+  }
+
+  .header--button--forum {
+    font-size: 2.5rem;
+    bottom: 30%;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 900px) {
+  .header--title {
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    align-items: center;
+    margin-left: 1rem;
+    justify-content: flex-start;
+  }
+
+  .header--button--inspiration {
+    font-size: 3rem;
+  }
+
+  .header--button--destination {
+    font-size: 3rem;
+    top: 36%;
+  }
+
+  .header--button--forum {
+    font-size: 3rem;
+    bottom: 34%;
+  }
+}

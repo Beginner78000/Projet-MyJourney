@@ -1,0 +1,21 @@
+@use "reset";
+@use "vars";
+
+@font-face {
+  font-family: "Lora";
+  src: "src/assets/fonts/Roboto-Regular.ttf";
+}
+
+body {
+  font-family: "Lora", serif;
+  background-color: vars.$dark-blue;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

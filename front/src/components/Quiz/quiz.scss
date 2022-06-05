@@ -1,0 +1,40 @@
+.quiz {
+  margin-top: 3rem;
+  width: 50%;
+
+  & // Titre du quiz
+.sv-root-modern .sv-container-modern__title {
+    font-family: Lora;
+    color: white;
+  }
+  .sv-root-modern .sv-radio__svg {
+    visibility: hidden;
+  }
+  .sv-selectbase__decorator.sv-item__decorator {
+    visibility: hidden;
+  }
+  .sv-selectbase__label {
+    margin-left: 0px;
+  }
+  span.sv-string-viewer {
+    font-family: Lora;
+  }
+  .sv-root-modern .sv-radio--checked .sv-radio__svg {
+    visibility: hidden;
+  }
+  .sv-root-modern .sv-question__title--error {
+    background-color: #ff1800;
+  }
+  .sv-body,
+  .sv-body--static {
+    color: white;
+    font-family: Lora;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .quiz {
+    margin-top: 4rem;
+    width: 95%;
+  }
+}

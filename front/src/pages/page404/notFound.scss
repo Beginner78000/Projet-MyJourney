@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Open+Sans&display=swap');
+
+.clearfix:before, body:before {
+  content: '';
+  display: table;
+}
+
+.pageColor {
+  display: block;
+  animation: body 60s linear infinite;
+  background-color: #8dcce8;
+  position: relative;
+  transition: background-color 10s ease;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-family: 'Lora',sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+  // font-size: 13px;
+  // line-height: 18px;
+  margin: 0;
+  min-width: 320px;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+
+  @keyframes body {
+    0% {
+      background-color: #8dcce8;
+    }
+    25% {
+      background-color: #fe9900;
+    }
+    40% {
+      background-color: #222;
+    }
+    60% {
+      background-color: #222;
+    }
+    100% {
+      background-color: #8dcce8;
+    }
+  }
+}
+
+.stars {
+  -webkit-animation: stars 60s linear infinite;
+  animation: stars 60s linear infinite;
+  background: url(../../assets/images/error/sky.png) repeat center top,url(../../assets/images/error/stars.png) no-repeat center top;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  @keyframes stars {
+    0% {
+      opacity: 0;
+    }
+    33% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 2;
+    }
+    66% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+.sun-moon {
+  height: 200%;
+  width: 0;
+  -webkit-animation: sun-moon 60s linear infinite;
+  animation: sun-moon 60s linear infinite;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+  @keyframes sun-moon {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.sun {
+  height: 400px;
+  width: 400px;
+  background-color: #fbd461;
+  border-radius: 200px;
+  left: 0;
+  margin: -200px 0 0 -200px;
+  position: absolute;
+  top: 0;
+}
+
+.moon {
+  height: 200px;
+  width: 200px;
+  background-color: #f4f3ef;
+  border-radius: 100px;
+  left: 0;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 100%;
+}
+
+.hills {
+  background-image: url(../../assets/images/error/hills.png);
+  bottom: 30px;
+  height: 640px;
+  z-index: 20;
+}
+
+.country {
+  background-image: url(../../assets/images/error/country.png);
+  bottom: 2px;
+  height: 600px;
+  z-index: 40;
+}
+
+.foreground {
+  background-image: url(../../assets/images/error/foreground.png);
+  bottom: -10px;
+  height: 400px;
+  z-index: 50;
+}
+
+.background {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  left: -20px;
+  padding: 0 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.error-content {
+  bottom: 570px;
+  font-size: 48px;
+  line-height: 1.5;
+  margin-bottom: 10rem;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 6px rgb(0 0 0 / 20%);
+  width: 100%;
+  z-index: 60;
+}
+
+.error-content a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.button-home {
+  height: 57px;
+  width: 200px;
+  background: url(../../assets/images/error/button.png) no-repeat center -57px;
+  background-size: 250px 114px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  bottom: 470px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  left: 50%;
+  line-height: 55px;
+  margin-left: -125px;
+  margin-bottom: 7rem;
+  font-family: 'Lora',sans-serif;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  z-index: 60;
+}
+
+.code {
+  bottom: 85px;
+  font-size: 240px;
+  font-weight: 800;
+  left: 50%;
+  line-height: 1;
+  margin-left: -300px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 15px rgb(0 0 0 / 30%);
+  width: 600px;
+  z-index: 30;
+}
+
+.code span {
+  display: inline-block;
+  font-family: 'Lora',sans-serif;
+  margin-bottom: 5rem;
+}
+
+.clearfix:after, body:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+@media screen and (max-width: 1024px), screen and (max-height: 580px), screen and (max-height: 1280px){
+  .stars {
+      background-size: 50%,75%;
+  }
+  .sun {
+    height: 240px;
+    width: 240px;
+    border-radius: 120px;
+    margin: -120px 0 0 -120px;
+  }
+  .moon {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin: -60px 0 0 -60px;
+  }
+  .error-content {
+    bottom: 300px;
+    font-size: 40px;
+  }
+  .button-home {
+    bottom: 220px;
+  }
+  .code {
+    bottom: 10px;
+    font-size: 200px;
+  }
+
+  body {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
+

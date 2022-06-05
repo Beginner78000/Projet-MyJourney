@@ -1,0 +1,57 @@
+.card-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card .border-info .mb-3 {
+  max-width: 20rem;
+}
+
+.card-container .card {
+  margin: 0 1%;
+}
+
+div.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 8%;
+}
+
+.tabs .tabs-pane {
+  margin: 1%;
+  padding-bottom: 0.5%;
+  cursor: pointer;
+  list-style: none;
+}
+
+.tabs .tabs-pane span {
+  color: white;
+  font-size: 1.5rem;
+  z-index: 1;
+  left: 0;
+}
+
+.tabs .tabs-pane.active {
+  border-bottom: 1px solid red;
+}
+
+.tab-content {
+  /* margin: auto; */
+  width: auto;
+  position: absolute;
+  display: flex;
+  text-align: start;
+  z-index: 1;
+  top: 10%;
+  right: 1%;
+  color: red;
+  font-weight: bold;
+}
+
+.card-title span {
+  font-weight: bold;
+  color: #78c2ad;
+}
