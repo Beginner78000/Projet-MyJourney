@@ -1,6 +1,6 @@
 #config
-# .env
-# sqitch.conf
+.env
+sqitch.conf
 
 # Linux
 **/.directory

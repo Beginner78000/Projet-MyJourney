@@ -13,7 +13,7 @@ VALUES (
 ),
 (
     3,
-    '["froid (- 10°C)", "tempéré (10°C - 20°C)", "chaud (+ 20°)"]',
+    '["froid", "tempéré", "chaud"]',
     3
 ),
 (
@@ -23,7 +23,7 @@ VALUES (
 ),
 (
     5,
-    '["petit (- 1000€/semaine)", "moyen(- 2000€/semaine)", "grand(+ 2000€/semaine)"]',
+    '["petit", "moyen", "grand"]',
     5
 );
 

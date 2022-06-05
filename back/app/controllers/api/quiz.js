@@ -10,19 +10,19 @@ module.exports = {
      * @param {object} res Express response object
      * @returns {string} Route API JSON response
      */
-    async displayQuiz(req, res) {
-        // on créé un tableau vide de quiz
+    async displayQuiz(_, res) {
+        // I create an empty array of quiz
         let quiz = [];
-        const id = req.params.id;
 
-        // on va chercher les questions et responses
-        const result = await responseDataMapper.findResponseByQuestionId(id);
+        // I get the data from the method of the dataMapper
+        const result = await responseDataMapper.findResponseByQuestionId();
 
+        // I send an error if no quiz is find
         if (!result) {
             throw new ApiError('Quiz not found', { statusCode: 404 });
         }
 
-        // on les insert dans le tableau
+        // I push the result of the dataMapper in the quiz array 
         quiz.push(result);
 
         return res.json(quiz);
@@ -38,6 +38,7 @@ module.exports = {
     async getResults(req, res) {
         // On recupere les donnees du questionnaire
         const answer = req.body;
+        // console.log(answer);
 
         const landscape = answer[0];
         const seasonperiod = answer[1];
